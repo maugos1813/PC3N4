@@ -1,26 +1,26 @@
 import React from "react";
 import { Link, Route, Routes, useLocation } from "react-router-dom";
-import { Home } from "./Home";
+import { Home } from "./Home.jsx";
 import home from "/Home.jpg";
 import SDestiy from "/02Destiy.jpg";
 import mega from "/mega.jpg";
 import tech from "/tech.jpg";
-import { Button } from "./Button";
-import { Mars } from "./Mars";
-import { Destination } from "./Destination";
-import { Titan } from "./Titan";
-import { Europe } from "./Europe";
-import { Moon } from "./Moon";
-import { Crew } from "./Crew";
-import { Technolohy } from "./Technolohy";
+import { Button } from "./Button.jsx";
+import { Mars } from "./Mars.jsx";
+import { Destination } from "./Destination.jsx";
+import { Titan } from "./Titan.jsx";
+import { Europe } from "./Europe.jsx";
+import { Moon } from "./Moon.jsx";
+import { Crew } from "./Crew.jsx";
+import { Technolohy } from "./Technolohy.jsx";
 import logo from "/logo.svg";
-import { Engineer } from "./crews/Engineer";
-import { Commander } from "./crews/Commander";
-import { Specialist } from "./crews/Specialist";
-import { Pilot } from "./crews/Pilot";
-import { Launch } from "./technology/Launch";
-import { Spacespor } from "./technology/Spacespor";
-import { Capsule } from "./technology/Capsule";
+import { Engineer } from "./crews/Engineer.jsx";
+import { Commander } from "./crews/Commander.jsx";
+import { Specialist } from "./crews/Specialist.jsx";
+import { Pilot } from "./crews/Pilot.jsx";
+import { Launch } from "./technology/Launch.jsx";
+import { Spacespor } from "./technology/Spacespor.jsx";
+import { Capsule } from "./technology/Capsule.jsx";
 
 const routeBackgrounds = {
   "/": home,
