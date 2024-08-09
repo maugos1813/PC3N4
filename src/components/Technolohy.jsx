@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, Navigate, Outlet, useLocation } from 'react-router-dom'
 
-export const Technology = () => {
+export const Technolohy = () => {
   const location = useLocation();
 
   if (location.pathname === "/technology") {

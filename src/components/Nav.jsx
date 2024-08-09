@@ -12,7 +12,7 @@ import { Titan } from "./Titan.jsx";
 import { Europe } from "./Europe.jsx";
 import { Moon } from "./Moon.jsx";
 import { Crew } from "./Crew.jsx";
-import { Technolohy } from "./Technolohy.jsx";
+import { Technolohy } from './Technolohy.jsx'
 import logo from "/logo.svg";
 import { Engineer } from "./crews/Engineer.jsx";
 import { Commander } from "./crews/Commander.jsx";
